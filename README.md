@@ -14,8 +14,12 @@
 
 After passing the course, students should be able to:
 
-* Use recursion, pattern matching and non-modifiable data structures upon implementation in a functional programming language.
-* Use functions as first order objects and work with the functions of higher order.
-* Explain the basics of functional programming, its structure and operational semantics.
-* Evaluate functions with regard to time complexity.
-* Use message based multi-threaded programming.
+* Describe and explain the basic terminology used in networking and communication.
+* Analyse communication scenarios and application requirements, and explain what methods and algorithms are suitable to use for a desired communication service.
+* Explain, model and analyse the behaviour of networks using different methods for error control, flow control and congestion control, and predict how such a system will 
+react in response to different events and conditions.
+* Explain the functions of protocols of the different layers of the Internet model, and how different layers interact with each other.
+* Explain and implement basic algorithms and mechanisms for error detection, error correction, flow control, congestion control and routing.
+* Design, implement and analyse the behaviour of basic Internet applications and their protocols.
+* Explain different functions and concepts concerning equipment for communication and networks.
+* Compute and/or approximate the performance of communication systems, and suggest improvements.
