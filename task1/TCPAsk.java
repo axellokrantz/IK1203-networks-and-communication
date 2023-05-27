@@ -1,6 +1,5 @@
-import java.net.*;
 import java.io.*;
-import tcpclient.TCPClient;
+import tcpclient1.TCPClient;
 
 public class TCPAsk {
     /*
@@ -48,7 +47,7 @@ public class TCPAsk {
         }
 
         try {
-            TCPClient tcpClient = new tcpclient.TCPClient();
+            TCPClient tcpClient = new tcpclient1.TCPClient();
             byte[] serverBytes  = tcpClient.askServer(hostname, port, userInputBytes);
             String serverOutput = new String(serverBytes);
             System.out.printf("%s:%d says:\n%s", hostname, port, serverOutput);
